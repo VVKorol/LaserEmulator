@@ -8,11 +8,12 @@ I will not list the entire list of commands and their operation conditions, beca
 Emulator - is Basic class to emulate any device that work with stream.
 
 # How it works
-
+```
 // Create variable Emulator
 LaserEmulator le;
 // Start Emulator with stream in and out.
 le.StartEmulator(std::cin, std::cout);
+```
 
 # How to modify
 ## New Emulator
